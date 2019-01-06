@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Perm
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment2.params=p\ s
-comment2.target=void\ perm(java.lang.String,\ java.lang.String)
-numComments=3

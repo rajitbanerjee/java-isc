@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=dectohex
-comment1.params=n
-comment1.target=void\ main(int)
-comment2.params=n
-comment2.target=java.lang.String\ hex(int)
-comment3.params=n
-comment3.target=void\ hexa(int)
-numComments=4
