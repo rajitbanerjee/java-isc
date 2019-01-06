@@ -1,7 +1,7 @@
 /*
  * Program to check palindrome number
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class Palin{
  static int num, revnum;

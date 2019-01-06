@@ -1,7 +1,7 @@
 /*
  * Base conversion: decimal to octal
  */
-package RecursiveFunctions;
+
 public class oct{
  static int oct = 0, n = 20;
  static void octa(){

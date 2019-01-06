@@ -2,7 +2,7 @@
  * Special number: Sum of the factorial of digits of a number = original number
  * 1! + 4! + 5! = 145
  */
-package RecursiveFunctions;
+
 public class SpecialRec{
     public static void main(String[]args){
      for(int i=1;i<=1000000;i++)

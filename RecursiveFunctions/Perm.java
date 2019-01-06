@@ -1,7 +1,7 @@
 /*
  * Program to print all the permutations of a word
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class Perm{
     public static void main(String[]args){

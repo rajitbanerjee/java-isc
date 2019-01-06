@@ -1,7 +1,7 @@
 /*
  * Reverse the digits of a number, 1234 becomes 4321
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class revdig{
 	int revn = 0;

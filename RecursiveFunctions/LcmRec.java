@@ -1,7 +1,7 @@
 /*
  * Calculate LCM of 2 numbers
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class LcmRec{
     int x, y;

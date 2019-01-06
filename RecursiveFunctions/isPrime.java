@@ -1,7 +1,7 @@
 /*
  * Check prime recursively
  */
-package RecursiveFunctions;
+
 public class isPrime{
  static int n, i = 2;
  static void main(int n){

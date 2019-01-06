@@ -1,7 +1,7 @@
 /*
  * Program to reverse a string and check whether it is a palindrome
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class Revstr{
  String str = "", revst = "";

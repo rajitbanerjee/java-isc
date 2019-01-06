@@ -1,7 +1,7 @@
 /*
  * Sum of series: (x^2) + (x^4)/3! + (x^6)/5! + ... + (x^n)/(n-1)!
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class Series{
     static int x,n;

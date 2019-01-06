@@ -1,7 +1,7 @@
 /*
  * HCF(GCD) of 2 numbers
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class gcd{
   public static void main(String[]args){

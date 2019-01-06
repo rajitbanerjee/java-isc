@@ -1,7 +1,7 @@
 /*
  * Program to toggle cases of an input string
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class Toggle{
  String str, newstr;

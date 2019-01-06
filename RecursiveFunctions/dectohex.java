@@ -1,7 +1,7 @@
 /*
  * Base conversion: Decimal to Hexadecimal
  */
-package RecursiveFunctions;
+
 public class dectohex{
 	static void main(int n){
   		System.out.println(hex(n));

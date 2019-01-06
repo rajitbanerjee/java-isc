@@ -1,7 +1,6 @@
 /*
  * Check Armstrong number e.g. 1^3 + 3^3 + 5^3 = 135
  */
-package RecursiveFunctions;
 import java.util.*;
 public class ArmRec{
     static int sum = 0;

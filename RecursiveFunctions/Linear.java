@@ -1,7 +1,7 @@
 /*
  * Perform linear search recursively
  */
-package RecursiveFunctions;
+
 public class Linear{
     int a[] = {2,5,6,4,10};
     int find(int n, int i){

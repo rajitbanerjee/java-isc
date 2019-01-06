@@ -1,7 +1,7 @@
 /*
  * Perform binary search recursively
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class BinarySearch{
     static int f = 0;

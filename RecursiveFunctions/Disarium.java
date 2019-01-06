@@ -2,7 +2,7 @@
  * Disarium number: Sum of its digits powered with their respective positions is equal to the original number
  * 1^1 + 3^2 + 5^3 = 135
  */
-package RecursiveFunctions;
+
 public class Disarium{
  static int size = 0, n = 0;
  static void count(){

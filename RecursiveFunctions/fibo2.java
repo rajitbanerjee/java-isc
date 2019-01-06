@@ -1,7 +1,7 @@
 /*
  * nth Fibonacci number
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class fibo2{
     public static void main(String[]args){

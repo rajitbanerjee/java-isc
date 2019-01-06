@@ -1,7 +1,7 @@
 /*
  * Print x Fibonacci numbers
  */
-package RecursiveFunctions;
+
 public class fibo{
     int a = 0, b = 1, c = 0;
     void main(int x){

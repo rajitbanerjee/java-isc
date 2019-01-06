@@ -1,7 +1,7 @@
 /*
  * Calculate the sum 5 + 55 + 555 + 5555 + ... n terms
  */
-package RecursiveFunctions;
+
 import java.util.*;
 public class Sum{
  static int x = 0, sum = 0;
