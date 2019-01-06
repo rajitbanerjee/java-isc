@@ -8,7 +8,7 @@ public class List{
 
  	public void insertfirst(){
   		Scanner sc = new Scanner(System.in);
-  		System.out.print("Enter the number to Insert at first : ");
+  		System.out.print("Enter the number to insert at first : ");
   		int num = sc.nextInt();
   		Node temp = new Node();
   		temp.val = num;
@@ -17,11 +17,11 @@ public class List{
    		else 
 			temp.next=head;
   		head = temp;
- 	}
+ 	 }
 
  	public void insertlast(){
   		Scanner sc = new Scanner(System.in);
-  		System.out.print("Enter the number to Insert at last : ");
+  		System.out.print("Enter the number to insert at last : ");
   		int num = sc.nextInt();
   		Node t = head, temp = new Node();
    		temp.val = num;
@@ -40,7 +40,7 @@ public class List{
    			System.out.println("Linked List is Empty!");
    			return; 
   		}
-  		System.out.println("Item Removed : "+head.val);
+  		System.out.println("Item Removed : " + head.val);
   		head = head.next;                
  	}
 
@@ -50,14 +50,14 @@ public class List{
    			return; 
   		}
   		Scanner sc = new Scanner(System.in);
-  		System.out.print("Enter a n : ");
+  		System.out.print("Enter a number to delete: ");
   		int n = sc.nextInt(), c = 0;
   		Node temp = head, p;
   		p = temp;
   		temp = temp.next;
    		while(temp!=null){
     			c++;
-    			if(c== n){
+    			if(c == n){
      				p.next= temp.next;
      				break;
     			}
@@ -119,11 +119,11 @@ public class List{
             			break;
             
             			case 6:
-           			return;
+           			    return;
            
             			default:
             			System.out.println("\nWrong Choice! Try Again!"); 
         		}     
        		}
-         }   
-}
+       }   
+ }
