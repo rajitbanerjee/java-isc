@@ -10,9 +10,9 @@ class ListQueue
   }
    Node first,last;
     public void enqueue(){
-        Scanner Sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number to Enqueue : ");
-        int num=Sc.nextInt();
+        int num = sc.nextInt();
         Node temp = new Node();
         temp.val=num;
         if(first == null)
@@ -51,7 +51,7 @@ class ListQueue
     public static void main(String args[])
     {
        ListQueue S = new ListQueue();  
-       Scanner Sc=new Scanner(System.in);
+       Scanner sc = new Scanner(System.in);
        while(true)
       {
        System.out.println("\n1. Enqueue");
@@ -59,7 +59,7 @@ class ListQueue
        System.out.println("3. Display");
        System.out.println("4. Exit");
        System.out.print("Enter your choice : ");
-       int n = Sc.nextInt();
+       int n = sc.nextInt();
        switch(n)
        {
             case 1:
