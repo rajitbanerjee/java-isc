@@ -70,10 +70,11 @@ public class List{
     			temp = temp.next;
   		}
 	 }
+	
  	 public void display(){
     		Node temp = head;
     		int sum = 0, count = 0;
-        if(temp == null){
+                if(temp == null){
         		System.out.println("Linked List is Empty!");
         		return;
     		}
@@ -123,13 +124,13 @@ public class List{
             			L.display();
             			break;
 
-            			case 6:
-						return;
+				case 6:
+				return;
 
 
             			default:
             			System.out.println("\nWrong Choice! Try Again!");
 			        }
-               }
+                       }
 	     }
 }
