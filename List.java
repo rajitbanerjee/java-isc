@@ -66,8 +66,8 @@ public class List{
      				p.next= temp.next;
      				break;
     			}
-    		p = temp;
-    		temp = temp.next;
+    			p = temp;
+    			temp = temp.next;
   		}
 	 }
  	 public void display(){
@@ -124,12 +124,12 @@ public class List{
             			break;
 
             			case 6:
-									return;
+						return;
 
 
             			default:
             			System.out.println("\nWrong Choice! Try Again!");
-								}
-					 }
-			}
+			        }
+               }
+	     }
 }
