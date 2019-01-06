@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BinarySearch
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ k\ min\ max
+comment2.target=int\ bs(int[],\ int,\ int,\ int)
+numComments=3

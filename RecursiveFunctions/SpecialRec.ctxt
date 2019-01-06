@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SpecialRec
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a
+comment2.target=int\ fact(int)
+comment3.params=n
+comment3.target=int\ sod(int)
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Disarium
+comment1.params=
+comment1.target=void\ count()
+comment2.params=x
+comment2.target=void\ main(int)
+comment3.params=n\ c
+comment3.target=int\ dis(int,\ int)
+numComments=4

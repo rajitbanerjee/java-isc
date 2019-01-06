@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Revstr
+comment1.params=
+comment1.target=void\ getStr()
+comment2.params=i
+comment2.target=void\ recReverse(int)
+comment3.params=
+comment3.target=void\ check()
+comment4.params=
+comment4.target=void\ main()
+numComments=5
