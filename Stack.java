@@ -1,3 +1,6 @@
+/*
+ * Implement a simple Stack data structure
+ */
 import java.util.*;
 public class Stack{
     int top, max, p, stk[];
@@ -60,10 +63,3 @@ public class Stack{
         }
     }
 }
-
-    
-    
-     
-     
-     
-

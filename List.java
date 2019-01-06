@@ -1,10 +1,13 @@
+/*
+ * Implement a simple Linked list
+ */
 import java.util.*;
 public class List{
 	class Node{
   		int val;
   		Node next;
  	}
- 	Node head=null;
+ 	Node head = null;
 
  	public void insertfirst(){
   		Scanner sc = new Scanner(System.in);
@@ -14,7 +17,7 @@ public class List{
   		temp.val = num;
      		if(head == null)
    			temp.next=null;
-   		else 
+   		else
 			temp.next=head;
   		head = temp;
  	}
@@ -32,22 +35,22 @@ public class List{
    			while(t.next!=null)
     				t = t.next;
    			t.next = temp;
-  		}   
+  		}
  	}
 
  	public void removefirst(){
   		if(head == null){
    			System.out.println("Linked List is Empty!");
-   			return; 
+   			return;
   		}
   		System.out.println("Item Removed : "+head.val);
-  		head = head.next;                
+  		head = head.next;
  	}
 
  	public void delete(){
   		if(head == null){
    			System.out.println("Linked List is Empty!");
-   			return; 
+   			return;
   		}
   		Scanner sc = new Scanner(System.in);
   		System.out.print("Enter a n : ");
@@ -63,30 +66,30 @@ public class List{
     			}
     		p = temp;
     		temp = temp.next;
-  		}   
-	 }     
- 	 public void display(){  
-    		Node temp = head; 
+  		}
+	 }
+ 	 public void display(){
+    		Node temp = head;
     		int sum = 0, count = 0;
                 if(temp == null){
         		System.out.println("Linked List is Empty!");
         		return;
     		}
     		System.out.println("\nItems in the List : ");
-    		while (temp != null){ 
-       			System.out.print(temp.val+" ");  
+    		while (temp != null){
+       			System.out.print(temp.val+" ");
        			sum += temp.val;
        			count++;
-       			temp = temp.next; 
-    		}  
+       			temp = temp.next;
+    		}
     		if(count!=0){
-      			System.out.println("\nNo. of Nodes : "+count);  
+      			System.out.println("\nNo. of Nodes : "+count);
       			System.out.println("Sum of Nodes : "+sum);
      		}
-  	  }  
-     
+  	  }
+
           public static void main(String args[]){
-       		List L = new List();  
+       		List L = new List();
        		Scanner sc = new Scanner(System.in);
        		while(true){
        			System.out.println("\n1. Insert First");
@@ -101,29 +104,29 @@ public class List{
             			case 1:
             			L.insertfirst();
             			break;
-            
+
             			case 2:
             			L.insertlast();
             			break;
-            
+
             			case 3:
             			L.removefirst();
             			break;
-            
+
             			case 4:
             			L.delete();
             			break;
-            
+
             			case 5:
             			L.display();
             			break;
-            
+
             			case 6:
            			return;
-           
+
             			default:
-            			System.out.println("\nWrong Choice! Try Again!"); 
-        		}     
+            			System.out.println("\nWrong Choice! Try Again!");
+        		}
        		}
-         }   
+         }
 }

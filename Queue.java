@@ -1,3 +1,6 @@
+/*
+ * Implement a simple queue data structures
+ */
 import java.util.*;
 public class Queue{
    static Scanner sc = new Scanner(System.in);
@@ -65,9 +68,3 @@ public class Queue{
         }
     }
 }
-           
-           
-            
-    
-        
-       
