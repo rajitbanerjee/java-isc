@@ -43,13 +43,10 @@ public class List{
    			System.out.println("Linked List is Empty!");
    			return;
   		}
-<<<<<<< HEAD
   		System.out.println("Item Removed : "+head.val);
   		head = head.next;
-=======
   		System.out.println("Item Removed : " + head.val);
-  		head = head.next;                
->>>>>>> ca42788c970c4c2252313dd1bcba7b0b83e3db36
+  		head = head.next;
  	}
 
  	public void delete(){
@@ -76,7 +73,7 @@ public class List{
  	 public void display(){
     		Node temp = head;
     		int sum = 0, count = 0;
-                if(temp == null){
+        if(temp == null){
         		System.out.println("Linked List is Empty!");
         		return;
     		}
@@ -127,21 +124,12 @@ public class List{
             			break;
 
             			case 6:
-<<<<<<< HEAD
-           			return;
+									return;
 
-=======
-           			    return;
-           
->>>>>>> ca42788c970c4c2252313dd1bcba7b0b83e3db36
+
             			default:
             			System.out.println("\nWrong Choice! Try Again!");
-        		}
-       		}
-<<<<<<< HEAD
-         }
+								}
+					 }
+			}
 }
-=======
-       }   
- }
->>>>>>> ca42788c970c4c2252313dd1bcba7b0b83e3db36
