@@ -75,12 +75,12 @@ public class ListStack {
             	S.display();
             	break;
             
-           		case 4:
+           	case 4:
             	return;
                        
             	default:
             	System.out.println("\nWrong Choice! Try Again!"); 
         	}     
-   		 }
+            }
  	}   
 }  
