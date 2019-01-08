@@ -1,15 +1,17 @@
-package Strings;
+/*
+ * Program to count and display all the anagrams of a given word
+ */
 import java.util.*;
 public class Anagrams{
  int c = 0;
      
-    void input()throws Exception
+    void input() throws Exception
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a word : ");
         String s = sc.next();
         System.out.println("The Anagrams are : ");
-        display("",s);
+        display("", s);
         System.out.println("Total Number of Anagrams = "+c);
     }
    
@@ -22,7 +24,7 @@ public class Anagrams{
         }
         else
         {
-            for(int i=0; i<s2.length(); i++)
+            for(int i=0; i < s2.length(); i++)
             {
                 String x = s2.substring(i, i+1);
                 String y = s2.substring(0, i);
@@ -34,7 +36,7 @@ public class Anagrams{
      
     public static void main(String args[])throws Exception
     {
-        Anagrams ob=new Anagrams();
+        Anagrams ob = new Anagrams();
         ob.input();
     }
 }
