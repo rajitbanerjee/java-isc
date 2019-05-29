@@ -1,70 +1,91 @@
-/*
- * Implement a simple queue data structures
+/* 
+ * Implement a simple queue data structure
  */
 import java.util.*;
-public class Queue{
-   static Scanner sc = new Scanner(System.in);
-   static int f, r, a[], max;
-   public Queue(int m){
-     f = r = -1;
-     max = m;
-     a = new int[max];
-   }
-   static void enqueue(){
-       if(f==-1 && r==-1)
-       f = r = 0;
-       else if(f!=-1 && r!=max)
-       r++;
-       if(r==max){
-           System.out.println("Overflow!");
-           r--;
-           return;
-       }
-       System.out.println("Enter element to enqueue: ");
-       int n = sc.nextInt();
-       a[r] = n;
-   }
-   static void dequeue(){
-       if(f==-1 || f==max){
-           System.out.println("Underflow!");
-           return;
+public class Queue {
+    static Scanner sc = new Scanner(System.in);
+    static int queue[], front, rear, max;
+
+    public Queue(int m) {
+        max = m;
+        front = -1;
+        rear = -1;
+        queue = new int[max];
+    }
+
+    void enqueue() {
+        if (front == -1 && rear == -1) {
+            front = 0;
+            rear = 0;
+        } else if (front != -1 && rear != max)
+            rear++;
+        if (rear == max) {
+            System.out.println("Overflow!");
+            rear--;
+            return;
         }
-       else if(f==0 && r==0){
-           System.out.println("Element dequeued: " + a[f]);
-           f = r = -1;
+        System.out.print("Enter element: ");
+        int x = sc.nextInt();
+        queue[rear] = x;
+        System.out.print("Element enqueued: " + queue[rear]);
+    }
+
+    void dequeue() {
+        if (front == -1 || front == max) {
+            System.out.println("Underflow");
+            return;
+        } else if (front == 0 && rear == 0) {
+            System.out.println("Element dequeued: " + queue[front]);
+            front = -1;
+            rear = -1;
         }
-       else{
-           System.out.println("Element dequeued: " + a[f]);
-           f++;
+
+        else {
+            System.out.println("Element dequeued: " + queue[front]);
+            front++;
         }
     }
-   static void display(){
-       if(f==-1 && r==-1 || f==max || r==max){
-           System.out.println("Queue is empty.");
-           return;
+
+    void display() {
+        if (front == -1 && rear == -1 || front == max || rear == max) {
+            System.out.println("Queue is Empty.");
+            return;
         }
-       else{
-           System.out.println("Elements in queue: ");
-           for(int i = f; i<=r ; i++)
-            System.out.print(a[i] + " ");
+        System.out.print("Queue : ");
+        for (int i = front; i <= rear; i++) {
+            System.out.print(queue[i] + " ");
         }
     }
-   public static void main(String[]args){
-       System.out.println("Enter max: "); int x = sc.nextInt();
-       Queue q = new Queue(x);
-       while(true){
-           System.out.println("\n1. Enqueue");
-           System.out.println("2. Dequeue");
-           System.out.println("3. Display");
-           System.out.println("4. Exit");
-           System.out.println("Enter your choice: "); int ch = sc.nextInt();
-           switch(ch){
-               case 1: q.enqueue(); break;
-               case 2: q.dequeue(); break;
-               case 3: q.display(); break;
-               case 4: return;
-               default: System.out.println("Wrong input.");
+
+    public static void main(String[] args) {
+        System.out.print("Enter size of the Queue: ");
+        int max = sc.nextInt();
+        Queue ob = new Queue(max);
+        int op = 0;
+        do {
+            System.out.println("\n\n1. Enqueue");
+            System.out.println("2. Dequeue");
+            System.out.println("3. Display");
+            System.out.println("4. Exit");
+            System.out.print("Enter option: ");
+            op = sc.nextInt();
+            switch (op) {
+            case 1:
+                ob.enqueue();
+                break;
+            case 2:
+                ob.dequeue();
+                break;
+            case 3:
+                ob.display();
+                break;
+            case 4:
+                System.out.println("Exit.");
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Wrong input.");
             }
-        }
+        } while (op > 0);
     }
 }
