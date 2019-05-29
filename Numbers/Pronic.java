@@ -3,17 +3,18 @@
  * Program to check pronic number
  */
 import java.util.*;
-public class Pronic{
-	public static void main(String[] args){
-		Scanner sc = new Scanner(System.in);
+
+public class Pronic {
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
 		System.out.print("Enter a number: ");
 		int a = sc.nextInt();
 		int i;
-  		for(i=0;i<=a/2;i++){
-   			if(i*(i+1)==a){
-   				System.out.println("Pronic");
-   				break;
-   			}
- 		}
+		for (i = 0; i <= a / 2; i++) {
+			if (i * (i + 1) == a) {
+				System.out.println("Pronic");
+				break;
+			}
+		}
 	}
 }

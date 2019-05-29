@@ -1,4 +1,3 @@
-
 /*
  * Find difference between 2 dates
  */

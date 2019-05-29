@@ -1,4 +1,3 @@
-
 /*
  * Demonstrate Queue concept using Linked List
  */

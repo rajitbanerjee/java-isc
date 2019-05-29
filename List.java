@@ -1,4 +1,3 @@
-
 /*
  * Implement a simple Linked list
  */

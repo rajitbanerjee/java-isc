@@ -1,4 +1,3 @@
-
 /*
  * Print the calendar of an input month in 2016
  */
