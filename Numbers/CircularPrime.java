@@ -1,7 +1,10 @@
-/*
- * Circular Prime: A prime number which remains prime in all the circular permutations of its digits
+/**
+ * Circular Prime: A prime number which remains prime in all the circular 
+ * permutations of its digits.
  * Program to check circular prime
  */
+package Numbers;
+
 import java.util.*;
 
 public class CircularPrime {

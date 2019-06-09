@@ -1,6 +1,8 @@
-/*
+/**
  * Program to count and display all the anagrams of a given word
  */
+package Strings;
+
 import java.util.*;
 
 public class Anagrams {

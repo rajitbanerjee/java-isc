@@ -1,7 +1,9 @@
-/*
+/**
  * Pronic number: number which is the product of 2 consecutive integers
  * Program to check pronic number
  */
+package Numbers;
+
 import java.util.*;
 
 public class Pronic {
